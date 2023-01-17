@@ -93,7 +93,7 @@ python app.py
         - Create a new Notebook in Colab and in the cell execute the below command.  
         
         ```
-         ! git clone https://github.com/experience-ml/cartoonize.git
+         ! git clone https://github.com/adnaniz/cartoonize.git
         ```
         **Note:** Don't forget to add `!` at the beginning of the command
         
