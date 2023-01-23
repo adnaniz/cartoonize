@@ -132,6 +132,8 @@ python app.py
 5. Launch the flask app on ngrok
 
    ```
+   !pip3 install pyngrok
+   !ngrok authtoken YOUR AUTHTOKEN
    !python app.py
    ```
 
