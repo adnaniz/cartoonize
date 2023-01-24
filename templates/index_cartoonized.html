@@ -2,13 +2,13 @@
 <html>
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173468417-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-183856703-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-173468417-1');
+    gtag('config', 'UA-183856703-1');
     </script>
 
     <meta charset="utf-8" />
@@ -101,7 +101,7 @@
                     <div id='uploadvideo' class="ui button" style="align-items: center;">
                         <i class="video icon"></i>
                         Video
-                        <span style="font-size: 10px;">(Max 30MB)</span>
+                        <span style="font-size: 10px;">(Max 100MB)</span>
                     </div>
                 </div>
         
@@ -257,8 +257,8 @@
                     </div>
                     <div class="content">
                         <ul class="ui list">
-                            <li>We are currently processing only upto <b>10 second</b> videos, if you happened to upload a video greater than 10 seconds, only <b>first 10 seconds</b> will be considered.</li>
-                            <li>Video File Size Limitation: <b>30MB</b></li>
+                            <li>We are currently processing only upto <b>300 second</b> videos, if you happened to upload a video greater than 10 seconds, only <b>first 10 seconds</b> will be considered.</li>
+                            <li>Video File Size Limitation: <b>100MB</b></li>
                             <li>Image File Formats Supported: <b>jpeg, png</b></li>
                             <li>Video File Formats Supported: <b>mp4, webm, avi, mkv</b></li>
                             <li>GIF/TIFF Images are not supported.</li>
@@ -406,10 +406,10 @@
                 const file = Math.round((fsize / 1024)); 
                 // The size of the file.
                 //Change the max_file_size as per your need 
-                const max_file_size = 30720;
+                const max_file_size = 100720;
                 if (file >= max_file_size) { 
                     alert( 
-                      "File too Big, please select a file less than 30mb (10 sec at 1080p or 5 sec at 4k)"); 
+                      "File too Big, please select a file less than 100mb (300 sec at 1080p or 5 sec at 4k)"); 
                 } else { 
                     $('#loader').removeClass('disabled').addClass('active');
                     document.getElementById("formsubmit").submit();
